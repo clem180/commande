@@ -10,14 +10,14 @@ $motdepasse="SQL2014";
 $nomdebase="LISA_DIGITAL";
 
 /*creation de la connexion et activation des avertissements en cas d'erreur*/
-$BDD=new PDO('mysql:host='.$machine.';port='.$port.';dbname='.$nomdebase,
+/*$BDD=new PDO('mysql:host='.$machine.';port='.$port.';dbname='.$nomdebase,
 		$utilisateur,
 		$motdepasse);
 
 		$BDD->exec("SET CHARACTER SET utf8");
 $BDD->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING);
 
-
+*/
 ?>
 
 
